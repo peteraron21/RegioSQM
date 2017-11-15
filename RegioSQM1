@@ -11,3 +11,5 @@ mkdir start_geom
 mv *.sdf start_geom
 sed -i 's/charge=0/charge=+1/g' *+*.mop
 submit_batches_mopac
+chmod +x RegioSQM1 RegioSQM2
+./RegioSQM1 example pm3_mop
